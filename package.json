@@ -1,0 +1,24 @@
+{
+  "name": "random-string",
+  "version": "1.0.0",
+  "description": "generate a random string",
+  "bin": {
+    "random": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanjo/random-string.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tanjo",
+  "licenses": "MIT",
+  "engines": {
+    "node": ">=11.13.0",
+    "npm": ">=6.10.3"
+  },
+  "dependencies": {
+    "commander": "^3.0.2"
+  }
+}
